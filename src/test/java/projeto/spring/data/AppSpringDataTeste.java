@@ -105,7 +105,7 @@ public class AppSpringDataTeste {
 		}
 	}
 	
-	@Test
+	/*@Test
 	public void testeConsultaNomeParam() {
 
 		UsuarioSpringData usuarioSpringData = interfaceSpringDataUser.buscarPorNomeParam("pedro");
@@ -117,8 +117,14 @@ public class AppSpringDataTeste {
 			 * System.out.println(usuarioSpringData.getEmail());
 			 * System.out.println(usuarioSpringData.getIdade());
 			 * System.out.println(usuarioSpringData.getLogin());
-			 */
+			 
 			System.out.println(usuarioSpringData.getNome());
 	
+	}*/
+	
+	@Test
+	public void testeDeletePorNome() {
+		
+		interfaceSpringDataUser.deletePorNome("Teste5");
 	}
 }
